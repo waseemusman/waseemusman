@@ -1,54 +1,72 @@
+/*Navbar*/
+.navbar{
+  font-size: 25px;
+}
 /*Top Photo*/
 .photo{
   width: 100%;
-  height: 800px;
-  max-height:700px; 
+  height: 100%;
 }
 
 /*Web development First Div*/
 .web{
 	width: 100%;
-	height: 700px;
+	height:840px;
 }
 .container{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.lead{
-  font-size:16px !important;
-  font-family: arial;
-}
-
 /*Branding Second Div*/
 .branding{
 	width: 100%;
-	height: 700px;
+	height:840px;
 	background-color: rgba(230, 239, 240, 0.56);
 }
 
 /*Course Third Div*/
 .course{
 	width: 100%;
-	height: 700px;
+	height: 840px;
 }
 
 /*Client Fourth Div*/
 .client{
 	width: 100%;
-	height: 700px;
+	height: 840px;
 	background-color: rgba(230, 239, 240, 0.56);
 }
 
 /*Team Fifth Div*/
 .team{
 	width:100%;
-	height:700px;
+	height:840px;
 	background-color: black;
+}
+.photo{
+  margin-top: 50px;
+  border: 10px solid white;
+}
+.social{
+  font-size: 30px !important;
+  margin-left: 63px;
+  margin-top:20px;
 }
 
 /*Footer*/
 .foot{
   width: 100%;
+  height:840px;
   background-color:#6097c0;
   color: white;
+}
+.con{
+  padding: 15px;
+  margin-left: -50px !important;
+}
+.frm{
+  margin-top: 28px;
+}
+.line{
+  margin-top: 180px;
 }
