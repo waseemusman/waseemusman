@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Escape</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--CSS StyleSheet-->
     <link rel="stylesheet" href="escape.css" media="screen" title="no title" charset="utf-8">
     <!-- Latest compiled and minified CSS -->
@@ -11,9 +12,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!--fa fa link-->
   	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!--W3school-->
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
   </head>
-  <body>
+<body>
 
     <!--NavBar-->
     <nav class="nav navbar navbar-fixed-top">
@@ -40,73 +43,91 @@
   	</nav>
 
     <!--Top Image-->
-    <div id="home" class="row">
-      <img class="photo" src="newyork.jpg" alt="New York" />
+    <div class="" style="margin-bottom:50px">
+      <img class="photo" src="newyork.jpg" >
+      <div class="w3-display-bottomleft w3-hide-small"
+        style="bottom:50%;opacity:0.7;width:100%;color:white">
+        <h6 class="text-center">Can you build the website of my deams?</h6>
+        <h1 class="text-center"><b>YUP,WE CAN DO THAT.</b></h1>
+        <h1 class="text-center button">Learn More</h1>
+      </div>
     </div>
 
     <!--Web Development-->
-    <div id="service" class="web container">
+    <div id="home" class="web contain container-fluid">
       <div class="row">
         <div class="col-md-6 col-sm-6 text-left">
           <h1><span style="font-size:50px;font-weight:300;font-family:Calibri">Web</span><strong style="font-size:50px;font-family:Calibri"> Development</strong></h1>
           <p class="lead"> HTML, CSS and JavaScript for a website or web application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change <br> <br> constantly and so the developer needs to constantly be aware of how the field is developing</p>
         </div>
 
-        <div class="col-md-6 col-sm-6">
-
+        <div class="col-md-6 col-sm-6 img-responsive">
+          <img src="frontend.png" alt="" />
         </div>
 
       </div>
     </div>
 
     <!--Identity Branding-->
-   	<div id="client" class="branding">
-    	<div class="container">
+   	<div class="branding">
+    	<div class="container-fluid contain">
     		<div class="row">
-    			<div class="col-md-4 col-sm-6">
-
+    			<div class="col-md-6 col-sm-6">
+            <img src="struct.png" alt="" height="300" width="500"/>
     			</div>
 
-    			<div class="col-md-8 col-sm-6 text-left">
+    			<div class="col-md-6 col-sm-6 text-right">
     				<h1><span style="font-size:50px;font-weight:300;font-family:Calibri">Identity</span><strong style="font-size:50px;font-family:Calibri"> Branding</strong></h1>
-    			</div>
+            <p class="lead">A corporate identity is the manner which a corporation, firm or business presents themselves to the public, such as customers and investors as well as employees. It is a primary task of the corporate communications department to maintain and build this identity to accord with and facilitate business objectives. <br><br>
+            how the identity is applied and would include approved colour palettes, typefaces, page layouts and other such.</p>
+          </div>
     		</div>
     	</div>
     </div>
 
     <!--Courses-->
-    <div  class="course">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6 col-sm-6">
-
-    			</div>
-    		</div>
-
-    		<div class="row">
-    			<div class="col-md-6 col-sm-6">
-
-    			</div>
-    		</div>
-
-    		<div class="row">
-    			<div class="col-md-6 col-sm-6">
-
-    			</div>
-    		</div>
+    <div id="service"  class="course">
+    	<div class="container contain">
     	</div>
     </div>
 
     <!--Clients-->
-    <div class="client">
-    	<div class="container">
+    <div id=client class="client">
+    	<div class="container contain">
+        <div class="col-md-12 col-sm-12 text-center">
+          <h1><span style="font-size:50px;font-weight:300;font-family:Calibri">Amazing</span><strong style="font-size:50px;font-family:Calibri"> Clients</strong></h1>
+          <p class="lead">See what nice things our clients said about us.</p>
+        </div>
+
+        <div class="row">
+          <div class="container col-md-4 com-sm-4 col-xs-4">
+            <img class="img-circle" src="anasarshad.jpg" alt="" width="255  " height="250"/>
+            <div  class="col-md-8 col-sm-8" id="talkbubble">
+              <blockquote class="block">Proin iaculis purus consequant sem cure digni ssim <br>
+                donec porttitora entum suscipit aenean rhoncus.
+                <footer>Anas Arshad</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="talk">
+            <blockquote class="blck">Proin iaculis purus consequant sem cure digni ssim <br>
+              donec porttitora entum suscipit aenean rhoncus.
+              <footer>Basil Meer</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div>
+          <img class="img-circle basil" src="basil.jpg" alt="" width="255  " height="250" align="right"/>
+        </div>
 
     	</div>
     </div>
 
     <!--TEAM-->
     <div id="team" class="team">
-    	<div class="container">
+    	<div class="container contain">
         <div class="col-md-12 col-sm-12 text-center">
           <h1><span style="font-size:50px;font-weight:300;font-family:Calibri;color:white">Amazing</span><strong style="color:white;font-size:50px;font-family:Calibri"> Team</strong></h1>
           <p class="lead">These wounderful people make work enjoyable.</p>
@@ -147,7 +168,7 @@
     <!--FOOTER-->
     <div id="contact" class="foot">
     	<div class="row">
-    		<div class="container">
+    		<div class="container contain">
       			<div class="col-md-6 col-sm-6">
         			<h1><span style="font-size:50px;font-weight:300;font-family:Calibri">Say</span><strong style="font-size:50px;font-family:Calibri"> HELLO</strong></h1>
         			<p>Don't be shy,drop us an email and say hello!We are a really nice <br>bunch of people :)</p>
@@ -176,7 +197,7 @@
               </div>
             </div>
             <!--Form-->
-      			<div class="col-md-6 col-sm-6">
+      			<div class="col-md-6 col-sm-12">
               <div class="frm">
                 <div class="">
                   <form class="form-horizontal" role="form">
@@ -202,7 +223,7 @@
     		</div>
     	</div>
       <!--CopyRight-->
-      <div class="container line">
+      <div class="container contain line">
         <hr>
         <p class="text-center">&copy; 2016 Escape by InnoversTech &#9830; Made In Pakistan </p>
       </div>
