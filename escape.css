@@ -2,13 +2,13 @@
 .navbar{
   font-size: 22px;
   width: 100%;
-  color:black;
-  background-color:rgba(230, 239, 240, 0.23);
+  color:rgb(158, 6, 92);
+  background-color:rgba(9, 9, 9, 0.08);
   padding-top: 30px;
   padding-bottom: 20px;
 }
 /*Top Photo*/
-.photo{
+.phot{
   margin-top: -8px !important;
   width: 100% !important;
   height: 100%;
@@ -120,8 +120,6 @@
   margin: 2px 0 20px !important;
   border-left: none !important
 }
-
-
 /*Team Fifth Div*/
 .team{
 	width:100%;
@@ -130,8 +128,15 @@
 }
 .photo{
   margin-top: 50px;
+  height: 100%;
   width: 100% !important;
   border: 10px solid white;
+  border-radius: 50%;
+  transition: transform .8s ease-in-out;
+}
+.photo:hover{
+
+  transform: rotate(360deg);
 }
 .social{
   font-size: 30px !important;
