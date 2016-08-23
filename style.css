@@ -1,55 +1,31 @@
+
 #firstdiv{
 	width: 100%;
 	height: 768px;
 	background-color: red;
-	
-}
-
-ul{
-	overflow: hidden;
-	background-color: black;
-	margin:0;
-	padding: 0;
-	list-style-type: none;
-
-}
-
-li {
-	float: left;
-}
-
-li a{
-	
-	display: block;
-	color: white;
-	padding: 5px;
-	text-decoration: none;
-}
-li a:hover{
-	background-color: white;
-	color:black;
+	margin-top: -20px;
 }
 #seconddiv{
 	width: 100%;
 	height: 768px;
 	background-color: yellow;	
-	
-}
+	margin-top: -20px;
+}	
 #thirddiv{
 	width: 100%;
 	height: 768px;
 	background-color: green;
-	
+	margin-top: -20px;
 }
 #fourthdiv{
 	width: 100%;
 	height: 768px;
 	background-color: blue;
-	
+	margin-top: -20px;
 }
 #fifthdiv{
 	width: 100%;
 	height: 768px;
-	background-color: pink;
-	
+	background-color: pink;	
+	margin-top: -20px;
 }
