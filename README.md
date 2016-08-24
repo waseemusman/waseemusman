@@ -10,11 +10,9 @@ Important Note(Talha)
 
 3.Push this to repository 
 
-4. Work on Html
+4.Enter work done in Readme 
 
-5.Enter work done in Readme 
-
-6.Repeat from 3 infinitely
+5.Repeat from 3 infinitely
 
 NAVBAR
 1.With CSS
@@ -23,6 +21,7 @@ NAVBAR
 Tomorrow watch 25 videos.
 
 Dated 8/22/2016
+
 
 
 
@@ -35,6 +34,7 @@ Tuesday
 3.And I can make multiple site with 5 pages.Every page contain 2 picture.
 
 Dated 9/23/2016  
+
 
 
 
