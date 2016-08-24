@@ -2,12 +2,18 @@ Monday
 
 Videos Recived for Bootstrap.
 
-Talha 
+Important Note(Talha) 
+
 1.Make Blank Html (index)
+
 2.Make foldre named 'image'
+
 3.Push this to repository 
+
 4. Work on Html
+
 5.Enter work done in Readme 
+
 6.Repeat from 3 infinitely
 
 NAVBAR
@@ -30,3 +36,18 @@ Tuesday
 
 Dated 9/23/2016  
 
+
+
+Wednesday
+
+1.Today,I can't go to office for some reason.
+
+2.At home first,I make responsive navbar.
+
+3.Video folds.
+
+4.Thumbnails.
+
+And watch all videos of bootstrap.
+
+Dated 9/24/2016
