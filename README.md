@@ -33,7 +33,7 @@ Tuesday
 
 3.And I can make multiple site with 5 pages.Every page contain 2 picture.
 
-Dated 9/23/2016  
+Dated 8/23/2016  
 
 
 
@@ -50,4 +50,15 @@ Wednesday
 
 And watch all videos of bootstrap.
 
-Dated 9/24/2016
+Dated 8/24/2016
+
+
+
+
+Sunday
+
+1.Make Photo Gallery.
+
+2.Make in just 45 minutes.
+
+Dated 9/03/2016 
