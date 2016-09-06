@@ -6,7 +6,7 @@ Important Note(Talha)
 
 1.Make Blank Html (index)
 
-2.Make foldre named 'image'
+2.Make folder named 'image'
 
 3.Push this to repository 
 
