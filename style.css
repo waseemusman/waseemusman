@@ -1,6 +1,31 @@
-.topnav{
-	background-color:#405d9b;
+/*Nav Bar Effect*/
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
 }
-.login{
-	margin-top: 20px;
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: blue;
+}
+/*Log IN*/
+.body{
+  background-color: #f5f8fa;
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+  padding-top: 0.4cm;
+}
+.panel{
+	padding-left: 0px;
+	padding-right: 0px;
 }
