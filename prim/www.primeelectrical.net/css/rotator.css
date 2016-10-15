@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+
+/* rotator in-page placement */
+    div.rotator {
+	position:relative;
+	height:255px;
+	margin-left: -40px;
+	margin-top: -15px;
+	display: none;
+}
+/* rotator css */
+	div.rotator ul li {
+	float:left;
+	position:absolute;
+	list-style: none;
+}
+/* rotator image style */	
+	div.rotator ul li img {
+	border:1px solid #ccc;
+	padding: 4px;
+	background: #FFF;
+}
+    div.rotator ul li.show {
+	z-index:500
+}

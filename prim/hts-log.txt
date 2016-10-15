@@ -1,0 +1,16 @@
+HTTrack3.48-22+htsswf+htsjava launched on Sat, 15 Oct 2016 16:44:26 at http://www.primeelectrical.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.primeelectrical.net/ -O1 "C:\Users\hp 8470\Desktop\prim" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:44:41	Error: 	"Not Found" (404) at link www.primeelectrical.net/font.swf (from www.primeelectrical.net/)
+16:44:41	Error: 	"Not Found" (404) at link www.primeelectrical.net/expressInstall.swf (from www.primeelectrical.net/)
+16:46:19	Error: 	"Not Found" (404) at link www.primeelectrical.net/cjharvey@primeelectrical.net (from www.primeelectrical.net/sales.html)
+16:46:38	Error: 	"Not Found" (404) at link www.primeelectrical.net/contact_us.html (from www.primeelectrical.net/services.html)
+16:46:39	Error: 	"Not Found" (404) at link www.primeelectrical.net/images/hm_footerimg.gif (from www.primeelectrical.net/styles.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 2 minutes 13 seconds : 98 links scanned, 92 files written (2973855 bytes overall) [3002822 bytes received at 22577 bytes/sec], 9.8 requests per connection
+(5 errors, 0 warnings, 0 messages)
